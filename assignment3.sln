@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment3", "assignment3\assignment3.csproj", "{ECB939E8-45AF-41BC-8967-67C0C6E2E225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRoverTests", "MarsRoverTests\MarsRoverTests.csproj", "{348741DE-F8BC-45C1-91D3-AA0309EC37D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ECB939E8-45AF-41BC-8967-67C0C6E2E225} = {ECB939E8-45AF-41BC-8967-67C0C6E2E225}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECB939E8-45AF-41BC-8967-67C0C6E2E225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB939E8-45AF-41BC-8967-67C0C6E2E225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB939E8-45AF-41BC-8967-67C0C6E2E225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB939E8-45AF-41BC-8967-67C0C6E2E225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348741DE-F8BC-45C1-91D3-AA0309EC37D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348741DE-F8BC-45C1-91D3-AA0309EC37D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348741DE-F8BC-45C1-91D3-AA0309EC37D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348741DE-F8BC-45C1-91D3-AA0309EC37D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4FEC17E-1A9A-4EF7-B5A8-B8A288A3A135}
+	EndGlobalSection
+EndGlobal

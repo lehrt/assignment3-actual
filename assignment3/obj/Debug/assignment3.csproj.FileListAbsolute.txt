@@ -1,0 +1,7 @@
+C:\Users\therr\Desktop\Visual-Studio\unit_1\assignment3\assignment3\assignment3-framework\assignment3\assignment3\obj\Debug\assignment3.csproj.AssemblyReference.cache
+C:\Users\therr\Desktop\Visual-Studio\unit_1\assignment3\assignment3\assignment3-framework\assignment3\assignment3\obj\Debug\assignment3.csproj.CoreCompileInputs.cache
+C:\Users\therr\Desktop\Visual-Studio\unit_1\assignment3\assignment3\assignment3-framework\assignment3\assignment3\bin\Debug\assignment3.exe.config
+C:\Users\therr\Desktop\Visual-Studio\unit_1\assignment3\assignment3\assignment3-framework\assignment3\assignment3\bin\Debug\assignment3.exe
+C:\Users\therr\Desktop\Visual-Studio\unit_1\assignment3\assignment3\assignment3-framework\assignment3\assignment3\bin\Debug\assignment3.pdb
+C:\Users\therr\Desktop\Visual-Studio\unit_1\assignment3\assignment3\assignment3-framework\assignment3\assignment3\obj\Debug\assignment3.exe
+C:\Users\therr\Desktop\Visual-Studio\unit_1\assignment3\assignment3\assignment3-framework\assignment3\assignment3\obj\Debug\assignment3.pdb
