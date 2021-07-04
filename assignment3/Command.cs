@@ -17,6 +17,10 @@ namespace MarsRover
             {
                 throw new ArgumentNullException(commandType, "Command type required.");
             }
+            else if ((commandType != "MOVE") || (commandType!= "MODE_CHANGE"))
+            {
+                Console.WriteLine("ERROR: Command type must be either MOVE or MODE_CHANGE")
+            }
         }
 
         public Command(string commandType, int value)
@@ -26,7 +30,7 @@ namespace MarsRover
             {
                 throw new ArgumentNullException(commandType, "Command type required.");
             }
-            this. NewPostion = value;
+            this.NewPostion = value;
             }        
 
         public Command(string commandType, string mode)
