@@ -44,19 +44,24 @@ namespace MarsRoverTests
             Command newCommand = new Command("MODE_CHANGE", "LOW_POWER");
             Assert.AreEqual(newCommand.NewMode, "LOW_POWER");
         }
-        [TestMethod]
+ /*       [TestMethod]
         public void ArgumentOutOfRangeExceptionThrownIfModeIsWrong()
         {
             try
             {
-                new Command("MODE_CHANGE", "low_power");
+                new Command("MODE_CHANGE", "gchfchgb,kjnklbj");
             }
             catch (ArgumentOutOfRangeException ex)
             {
                 Assert.AreEqual("Mode must be either 'LOW_POWER' or 'NORMAL'.", ex.Message);
             }
+        }*/
+
+[TestMethod]
+[ExpectedException(typeof(ArgumentOutOfRangeException), "Mode must be either 'LOW_POWER' or 'NORMAL'.")]
+        public void ArgumentOutOfRangeExceptionThrownIfModeIsWrong()
+        {
+                new Command("MODE_CHANGE", "gchfchgb,kjnklbj");
         }
-
-
     }
 }

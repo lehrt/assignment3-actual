@@ -13,9 +13,6 @@ namespace MarsRoverTests
     {
        Command[] commands = { new Command("foo", 0), new Command("bar", 20) };
 
-
-
-    
         
     [TestMethod]
     public void ArgumentNullExceptionThrownIfNameNotPassedToConstructor()

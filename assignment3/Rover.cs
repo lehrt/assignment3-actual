@@ -14,8 +14,7 @@ public class Rover
     {
         this.Position = position;
         this.Mode = "NORMAL";
-        this.GeneratorWatts = 110;
-        
+        this.GeneratorWatts = 110;  
     }
 
     public override string ToString()
@@ -37,7 +36,7 @@ public class Rover
                 }
                 else
                 {
-                    this.Position = comm.NewPosition; //???????? why no work?
+                    this.Position = comm.NewPostion; 
                 }
             }
         }
@@ -48,7 +47,5 @@ public class Rover
                 throw new ArgumentOutOfRangeException("Rover can't move while in LOW_POWER mode");
             }
         }
-
-
     }
 }

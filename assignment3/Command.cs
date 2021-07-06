@@ -19,7 +19,7 @@ namespace MarsRover
             }
             else if ((commandType != "MOVE") || (commandType!= "MODE_CHANGE"))
             {
-                Console.WriteLine("ERROR: Command type must be either MOVE or MODE_CHANGE")
+                Console.WriteLine("ERROR: Command type must be either MOVE or MODE_CHANGE");
             }
         }
 
@@ -31,20 +31,20 @@ namespace MarsRover
                 throw new ArgumentNullException(commandType, "Command type required.");
             }
             this.NewPostion = value;
-            }        
+        }        
 
         public Command(string commandType, string mode)
         {
-            CommandType = commandType;
+            this.CommandType = commandType;
             if ((mode == "LOW_POWER") || (mode == "NORMAL"))
             {
                 NewMode = mode;
             }
             else
             {
-                throw new ArgumentOutOfRangeException(mode, "Mode must be either 'LOW_POWER' or 'NORMAL'.");
+                throw new ArgumentOutOfRangeException("Mode must be either 'LOW_POWER' or 'NORMAL'.");
             }
-            this.NewMode = mode;
+           // this.NewMode = mode;
         }
 
 
